@@ -1,0 +1,72 @@
+
+/* ----------------------------
+        Common Styles Started
+------------------------------ */
+body{
+    font-family: 'Playfair Display', serif;
+    padding: 0% 10%;
+   
+}
+h1{
+    font-size: 50px;
+    margin: 5px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.d-flex{
+    display: flex;
+}
+
+.stay-focused{
+    display: flex;
+    padding-top: 30%;
+}
+/* ----------------------------
+        Common Styles Ended
+------------------------------ */
+
+
+
+
+
+/* -----------------------------
+Stay Focused Secetion is Started 
+--------------------------------*/
+.half-width{
+width: 50%;
+}
+.half-width img{
+    width: 70%;
+    padding: 10% 0 0 30% ;  
+}
+.emty-div{
+width: 3px;
+height: 124px;
+border: 1px solid #FF5959;
+background-color: #FF5959;
+border-radius: 5px;
+margin-top: 18px;
+}
+.color-orange{
+    color: orange;
+}
+/* -----------------------------
+Stay Focused Secetion is Ended 
+--------------------------------*/
+
+/* @media screen and (min-width: 1550px) {
+    body{
+        width:1450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} */

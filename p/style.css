@@ -1,0 +1,233 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin:0% auto; 
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+.orange-color{
+    color: orange;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+.button{
+    text-decoration:  none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    background-image: linear-gradient( orange, tomato);    
+}
+
+/* ----------------------------
+        Common Styles Started
+------------------------------ */
+body{
+    font-family: 'Playfair Display', serif;
+    padding: 0% 10%;
+}
+h1{
+    font-size: 50px;
+    margin: 5px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.d-flex{
+    display: flex;
+}
+
+.stay-focused{
+    display: flex;
+    padding-top: 30%;
+}
+/* ----------------------------
+        Common Styles Ended
+------------------------------ */
+
+
+
+
+
+/* -----------------------------
+Stay Focused Secetion is Started 
+--------------------------------*/
+.half-width{
+width: 50%;
+}
+.half-width img{
+    width: 70%;
+    padding: 10% 0 0 30% ;  
+}
+.emty-div{
+width: 3px;
+height: 124px;
+border: 1px solid #FF5959;
+background-color: #FF5959;
+border-radius: 5px;
+margin-top: 18px;
+}
+.color-orange{
+    color: orange;
+}
+
+
+
+
+
+
+.first-banar{
+background-image: url(img/top-banner.png);
+background-repeat: no-repeat;
+padding-bottom: 5%;
+}
+.second-banar{
+    background-image: url(img/dream-bg.png);
+background-repeat: no-repeat;
+padding-bottom: 5%;
+background-position: right top;
+}
+.second-banar p{
+    padding-right: 10%;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.hafe-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hafe-width img{
+    width: 90%;
+}
+
+
+
+.last-section{
+    background: #fff3f3;
+    padding: 2% 0 5% 0;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 5%;
+    
+}
+
+.full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient( tomato, salmon);
+    border-image-slice: 1;
+    margin:0 0 0 5%;
+    width: 50%;
+    padding:0 2% 0 3%;
+    box-shadow: 0 0 20px 0 rgb(228, 225, 225);
+    border-radius: 10px;
+    transition: 1.5s;
+}
+.full-stack:hover{
+    box-shadow: 0 0 20px 0 #777;
+}
+
+.baby-web{
+    border-left: 10px solid ;
+    border-image: linear-gradient( blue, cyan );
+    border-image-slice: 1;
+    margin:0 5% 0 5%;
+    width: 50%;
+    padding: 0 2% 0 3%;
+    box-shadow: 0 0 20px 0 rgb(228, 225, 225);
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+.baby-web:hover{
+    box-shadow: 0 0 20px 0 #777;
+}
+
+
+footer{
+    margin-top: 10%;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (min-width:1450px) {
+    body{
+        width: 1450px;
+    }
+}
+/* ------------------
+     Media Quray 
+-------------------- */
+/* Smale Device */
+@media only screen and (max-width:980px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hafe-width img{
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 20%;
+    }
+      /* banar  */
+      .second-banar{
+        background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    background-position: right bottom;
+    }  
+    /* baby web */
+    .baby-web{
+        margin:5% 5% 10% 10%;
+    }
+
+
+/* Large Device */
+@media only screen and (min-width:1150px) {
+    .hafe-width img{
+        width: 75%;
+        padding-left: 30%;
+    }
+}
+
+@media only screen and (min-width:1350px) {
+    .hafe-width img{
+        width: 65%;
+        padding-left: 30%;
+    }
+  
+}
+@media only screen and (min-width:1650px) {
+    .hafe-width img{
+        width: 60%;
+    }
+}
