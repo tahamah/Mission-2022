@@ -4,8 +4,7 @@
 ------------------------------ */
 body{
     font-family: 'Playfair Display', serif;
-    padding: 0% 10%;
-   
+    padding: 0% 10%;  
 }
 h1{
     font-size: 50px;
@@ -34,16 +33,17 @@ p{
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
-    transition: 1.5s;
-    
-    
+    transition: .5s;   
 }
 .button:hover{
-    background-image: linear-gradient( tomato,salmon);
-box-shadow: 0 0 20px 0 #777;
+    background-image: linear-gradient( rgb(251, 87, 58),rgb(248, 138, 126));
+box-shadow: 0 0 10px 0 #777;
 }
 
-
+.text-center{
+    text-align: center;
+    margin-top: 15%;
+}
 /* ----------------------------
         Common Styles Ended
 ------------------------------ */
@@ -79,6 +79,74 @@ margin-top: 18px;
 /* -----------------------------
 Stay Focused Secetion is Ended 
 --------------------------------*/
+
+
+
+
+/* --------------------------------
+     My Mission 2022 Is Started
+---------------------------------- */
+.my-mission{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mission{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 25px;
+    padding: 0 2% 0 3%;
+    transition: 1.5s;
+}
+.mission img{
+    width: 200px;
+}
+.mission:hover{    
+    box-shadow: 0 0 20px 0 #777;
+}
+
+.vission{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 25px;
+    padding: 0 2% 0 3%;
+    margin: 0 4% 0 4%;
+    transition: 1.5s;
+}
+.vission img{
+    width: 200px;
+}
+.vission:hover{    
+    box-shadow: 0 0 20px 0 #777;
+}
+
+.goals{
+    background: #FFF4D6;
+    border-radius: 25px;
+    padding: 0 2% 0 3%;
+    transition: 1.5s;
+}
+.goals img{
+    width: 200px;
+}
+.goals:hover{    
+    box-shadow: 0 0 20px 0 #777;
+}
+/* --------------------------------
+     My Mission 2022 Is Ended
+---------------------------------- */
+
+/* #main {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: space-around;
+  } */
+
+
+
+
+
 
 /* @media screen and (min-width: 1550px) {
     body{
