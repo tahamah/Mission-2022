@@ -24,11 +24,26 @@ p{
 .d-flex{
     display: flex;
 }
-
-.stay-focused{
-    display: flex;
-    padding-top: 30%;
+.color-orange{
+    color: orange;
 }
+.button{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(salmon, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: 1.5s;
+    
+    
+}
+.button:hover{
+    background-image: linear-gradient( tomato,salmon);
+box-shadow: 0 0 20px 0 #777;
+}
+
+
 /* ----------------------------
         Common Styles Ended
 ------------------------------ */
@@ -40,12 +55,17 @@ p{
 /* -----------------------------
 Stay Focused Secetion is Started 
 --------------------------------*/
+
 .half-width{
 width: 50%;
 }
 .half-width img{
     width: 70%;
     padding: 10% 0 0 30% ;  
+}
+.stay-focused{
+    display: flex;
+    padding-top: 30%;
 }
 .emty-div{
 width: 3px;
@@ -55,9 +75,7 @@ background-color: #FF5959;
 border-radius: 5px;
 margin-top: 18px;
 }
-.color-orange{
-    color: orange;
-}
+
 /* -----------------------------
 Stay Focused Secetion is Ended 
 --------------------------------*/
