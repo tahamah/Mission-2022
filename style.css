@@ -4,12 +4,9 @@
 ------------------------------ */
 body{
     font-family: 'Playfair Display', serif;
-    margin: 0%;  
+    margin: 0%; 
 }
-.padding-maintin{
-    padding: 0% 10%; 
-    margin: 5%;    
-}
+
 h1{
     font-size: 50px;
     margin: 5px;
@@ -23,9 +20,6 @@ h3{
 p{
     font-size: 20px;
     text-align: justify;
-}
-.d-flex{
-    display: flex;
 }
 .color-orange{
     color: orange;
@@ -43,7 +37,6 @@ p{
     background-image: linear-gradient( rgb(251, 87, 58),rgb(248, 138, 126));
     box-shadow: 0 0 10px 0 #777;
 }
-
 .text-center{
     text-align: center;
 }
@@ -58,13 +51,17 @@ p{
 /* -----------------------------
 Stay Focused Secetion is Started 
 --------------------------------*/
-
 .half-width{
 width: 50%;
 }
 .half-width img{
     width: 90%;
     padding: 10% 0 0 30% ;  
+}
+.header{
+    padding: 0% 10%; 
+    margin: 0 10% 5% 5%;  
+    display: flex;
 }
 .stay-focused{
     display: flex;
@@ -271,9 +268,6 @@ footer{
     color: white;
     font-family: 'Chewy', cursive;
     font-family: 'Lobster', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 2% 0;
     margin: 0%;  
 }
@@ -292,11 +286,58 @@ footer p{
 
 
 
-/* @media screen and (min-width: 1550px) {
-    body{
-        width:1450px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+@media screen and (max-width: 1170px) {
+    body {
+      background-color: lightgreen;
     }
-} */
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0%;
+        margin: 0%;
+    }
+    .header img{
+        padding: 0%;
+    }
+    .my-mission{
+        display: flex;
+        flex-direction: column; 
+        padding:0 18%;
+    }
+    .my-mission div{
+        margin:0 0 10% 0; 
+    }
+    .devloper-without-limits{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16%;
+    }
+    .devloper-without-limits div{
+        width: 100%;
+        padding: 0;
+    }
+    .golobal-community{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16%;
+    }
+    .golobal-community a{
+        font-size: 15px;
+    }
+    .golobal-community div{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 100px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+  }
+
+  1170
+
