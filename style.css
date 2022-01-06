@@ -4,7 +4,13 @@
 ------------------------------ */
 body{
     font-family: 'Playfair Display', serif;
-    padding: 0% 10%;  
+    margin: 0%;
+    
+}
+.padding-maintin{
+    padding: 0% 10%; 
+    margin: 5%; 
+    
 }
 h1{
     font-size: 50px;
@@ -42,7 +48,6 @@ box-shadow: 0 0 10px 0 #777;
 
 .text-center{
     text-align: center;
-    margin-top: 15%;
 }
 /* ----------------------------
         Common Styles Ended
@@ -60,7 +65,7 @@ Stay Focused Secetion is Started
 width: 50%;
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
     padding: 10% 0 0 30% ;  
 }
 .stay-focused{
@@ -135,18 +140,101 @@ Stay Focused Secetion is Ended
      My Mission 2022 Is Ended
 ---------------------------------- */
 
-/* #main {
-    width: 400px;
-    height: 100px;
-    border: 1px solid #c3c3c3;
+
+
+
+/* ------------------------------------
+    develop Without limits Is Started
+--------------------------------------- */
+.banar-half-surcel{
+background-image: url(img/shapes/shape-1.png);
+background-position: left;
+background-repeat: no-repeat;
+background-size: 20%;
+margin-top: 10%;
+padding: 0 10% 0 10%;
+}
+.one-third-width{    
+width: 40%;
+}
+
+.one-third-width img{    
+width: 100%;
+border-radius: 10%;
+transition: 1.5s;
+}
+.one-third-width img:hover{    
+    box-shadow: 0 0 30px 0 #777;
+}
+.two-third-width{
+    width: 60%;
     display: flex;
-    justify-content: space-around;
-  } */
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+/* ------------------------------------
+    develop Without limits Is Ended
+--------------------------------------- */
 
 
 
 
+/* ------------------------------------
+    Know our Global Community Is Started
+--------------------------------------- */
+.banar-full-surcel{
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right  bottom ;
+    
+    
+    background-size:20% ;
+    margin-top: 5%;
+    
+    }
+    .two-third-width-golobal-community{
+        width: 60%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+    }
 
+    .one-third-width-golobal-community{    
+    width: 40%;
+    padding-bottom: 10%;
+    }
+    
+    .one-third-width-golobal-community img{    
+    width: 100%;
+    border-radius: 10%;
+    transition: 1.5s;
+    }
+    .one-third-width-golobal-community img:hover{    
+        box-shadow: 0 0 30px 0 #777;
+    }
+    
+    /* ------------------------------------
+        Know our Global Community Is Ended
+    --------------------------------------- */
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    font-family: 'Chewy', cursive;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 0;
+    margin: 0%;
+    
+}
+.color-red{
+    color: #FF5959;
+}
 
 /* @media screen and (min-width: 1550px) {
     body{
